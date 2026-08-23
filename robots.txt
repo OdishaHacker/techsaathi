@@ -1,7 +1,8 @@
 # TechSaathi — robots.txt
-# Apna asli domain "www.techsaathi.com" ki jagah daalna na bhoolna
+# Live: GitHub Pages (odishahacker.github.io/techsaathi)
+# Custom domain lene ke baad niche wali Sitemap line update karna
 
 User-agent: *
 Allow: /
 
-Sitemap: https://www.techsaathi.com/sitemap.xml
+Sitemap: https://odishahacker.github.io/techsaathi/sitemap.xml

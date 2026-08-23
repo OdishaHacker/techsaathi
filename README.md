@@ -94,8 +94,9 @@ vercel
 
 ## ⚙️ Step 3: Change These 4 Things BEFORE Deploying
 
-1. **Domain placeholder:** Replace `www.techsaathi.com` with your real domain in
-   `sitemap.xml` and `robots.txt` (3-4 occurrences)
+1. **Domain URLs:** `sitemap.xml` and `robots.txt` currently point to the live
+   GitHub Pages URL. After buying a custom domain, replace
+   `odishahacker.github.io/techsaathi` with your domain in both files
 2. **Contact form:** Create a free account at [formspree.io](https://formspree.io),
    create a form, and replace `YOUR_FORM_ID` in `contact.html` with your ID
 3. **Email:** Replace `hello@techsaathi.com` with your real email
