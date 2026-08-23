@@ -1,8 +1,8 @@
 # TechSaathi — robots.txt
-# Live: GitHub Pages (odishahacker.github.io/techsaathi)
-# Custom domain lene ke baad niche wali Sitemap line update karna
+# Custom domain: techsaathi.publicvm.com (DNSExit -> GitHub Pages)
+# Domain badle to niche wali Sitemap line update karna
 
 User-agent: *
 Allow: /
 
-Sitemap: https://odishahacker.github.io/techsaathi/sitemap.xml
+Sitemap: https://techsaathi.publicvm.com/sitemap.xml
