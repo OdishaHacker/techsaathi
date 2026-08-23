@@ -1,0 +1,7 @@
+# TechSaathi — robots.txt
+# Apna asli domain "www.techsaathi.com" ki jagah daalna na bhoolna
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.techsaathi.com/sitemap.xml
