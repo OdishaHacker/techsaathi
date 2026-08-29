@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Secure Your Home WiFi in 10 Minutes — TechSaathi</title>
+  <meta name="description" content="Your WiFi network knows everything about your home. Nine simple settings — from WPA3 to disabling WPS — that lock your router down in one sitting.">
+  <meta name="theme-color" content="#0f2b3c">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📱</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="../index.html">📱 TechSaathi</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#articles">Articles</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu"><span></span><span></span><span></span></label>
+  </div>
+</header>
+
+<main class="article-wrap">
+  <article class="article">
+    <nav class="breadcrumbs"><a href="../index.html">Home</a> › Internet Tips</nav>
+    <h1>How to Secure Your Home WiFi in 10 Minutes</h1>
+    <p class="article-meta">By TechSaathi Team · Updated: August 29, 2026 · ~6 min read</p>
+
+    <p>Think about what flows through your home WiFi: your banking sessions, your work emails, your family's photos, every website everyone visits. Now think about who else can see that if the network is loosely secured — a neighbour freeloading, a stranger in the parking lot, or worse, someone who gets into the router itself. Securing it takes one sitting. Grab a cup of chai — here's the checklist.</p>
+
+    <h2>First: Open Your Router's Admin Panel</h2>
+    <p>Type <strong>192.168.1.1</strong> or <strong>192.168.0.1</strong> into your browser (the address and default password are also printed on the router's sticker). Everything below happens inside this panel. If the default admin password is still "admin"/"admin" — fix that first, it's the master key to everything else.</p>
+
+    <h2>1. Change the Admin Password From the Default</h2>
+    <p>Router settings → Administration/System → set a new admin password. This is different from the WiFi password — it controls the router's brain. Default passwords are printed on stickers and listed on public websites, so anyone within range can currently log in and change whatever they like.</p>
+
+    <h2>2. Use WPA2 or WPA3 — Nothing Older</h2>
+    <p>Wireless settings → Security mode. If your router shows options like WEP or WPA (version one), those are broken — they can be cracked in minutes. Choose <strong>WPA2-Personal (AES)</strong> at minimum, or <strong>WPA3</strong> if your devices support it. This single setting is the difference between a lock and a latch.</p>
+
+    <h2>3. Replace a Password That Can Be Guessed</h2>
+    <p>"Rahul@2020" or the phone number on your gate sticker is guessable. Make the WiFi password 12+ characters, not a dictionary word, not your name or address. You only type it once per device — the inconvenience of a strong password is a few seconds, once.</p>
+
+    <h2>4. Turn Off WPS</h2>
+    <p>WPS ("push the button to connect") has a famous flaw: the 8-digit PIN it uses can be brute-forced in hours by free tools. In the router settings it's called WPS — switch it off. Connecting new devices by typing the real password takes ten seconds longer and removes an entire attack method.</p>
+
+    <h2>5. Set Up a Guest Network for Visitors</h2>
+    <p>Most routers can create a separate guest WiFi — guests get internet, but can't see your devices, printers, or files. Every "can I get the WiFi?" from a visitor, delivery agent, or cousin then touches only the guest lane. Name it something like "Home-Guest" with its own simple password, and change that one freely without disrupting the family.</p>
+
+    <h2>6. Check Who's Connected Right Now</h2>
+    <p>Router settings → attached devices / DHCP client list. You'll see every phone, laptop, and TV on your network by name. An unknown device? Change the WiFi password immediately (rule 3), which kicks everything off — then reconnect your own devices. Make this check a monthly habit; it takes two minutes.</p>
+
+    <h2>7. Update the Router's Firmware</h2>
+    <p>Routers get security patches too — Settings → Firmware/System update. An unpatched router is a door with a broken lock no matter how strong the password is. Modern routers update through their phone apps; older ones need a manual check every few months.</p>
+
+    <h2>8. Turn Off Remote Administration</h2>
+    <p>Some routers allow the admin panel to be reached from the internet, not just from inside your home. Unless you specifically set that up on purpose, disable "Remote management/Access" — it means strangers on the internet can't even knock on your router's door.</p>
+
+    <h2>9. Reduce Signal Leakage Beyond Your Walls</h2>
+    <p>If your router blasts full signal three houses down, that's reach you don't need. Lower the transmit power if your router allows it, and place the router centrally (this also improves speed — see our <a href="wifi-speed-increase.html">WiFi speed guide</a>). Less signal outside = fewer strangers even seeing your network name.</p>
+
+    <h2>Conclusion</h2>
+    <p>Password strength, WPA2/WPA3, WPS off, admin password changed, firmware current. Those five items are 90% of home WiFi security, and together they take less time than one episode of anything. Do them this evening — your entire household's digital life runs through that little box.</p>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    <details>
+      <summary>Should I hide my network name (SSID)?</summary>
+      <p>It sounds safer but provides almost no real protection — hidden networks are still detectable, and hiding mostly causes device connection headaches. A strong password on a visible network beats a hidden network with a weak one. Spend your effort on the password instead.</p>
+    </details>
+    <details>
+      <summary>How often should I change my WiFi password?</summary>
+      <p>Only when needed: after a guest you distrust had it, after seeing an unknown device connected, or if you've shared it widely. A strong password that stays private doesn't need routine rotation — changing it needlessly just means reconnecting the whole house.</p>
+    </details>
+    <details>
+      <summary>Can my ISP see what I do on my WiFi?</summary>
+      <p>Your ISP can see which sites/domains you connect to (that's how their network routes traffic), but not the encrypted content of HTTPS pages — which today is nearly everything. Inside your home WiFi with HTTPS, family members can't snoop each other's page contents either.</p>
+    </details>
+
+    <p style="margin-top:24px">Ten minutes for peace of mind — do it tonight, then share this checklist! 🔒</p>
+  </article>
+
+  <aside class="related">
+    <h2>Read This Next</h2>
+    <ul class="mini-list">
+      <li><a href="wifi-speed-increase.html">📶 11 Ways to Boost WiFi Speed</a></li>
+      <li><a href="app-permissions-guide.html">🔐 App Permissions: Allow vs Deny</a></li>
+      <li><a href="online-scam-suraksha.html">🛡️ The Guide to Online Scam Safety</a></li>
+    </ul>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h4>TechSaathi</h4>
+      <p>Easy-to-understand guides on technology, smartphones and the internet.</p>
+    </div>
+    <div>
+      <h4>Popular Articles</h4>
+      <a href="smartphone-hang-fix.html">Fix a Hanging Phone</a>
+      <a href="mobile-data-save.html">Save Mobile Data</a>
+      <a href="wifi-speed-increase.html">Boost WiFi Speed</a>
+      <a href="online-scam-suraksha.html">Avoid Online Scams</a>
+      <a href="free-fire-lag-fix.html">Free Fire Lag Fix</a>
+    </div>
+    <div>
+      <h4>Important Pages</h4>
+      <a href="../about.html">About Us</a>
+      <a href="../contact.html">Contact Us</a>
+      <a href="../privacy-policy.html">Privacy Policy</a>
+      <a href="../disclaimer.html">Disclaimer</a>
+      <a href="../terms.html">Terms &amp; Conditions</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span id="yr">2026</span> TechSaathi — All rights reserved.</div>
+</footer>
+<script>document.getElementById("yr").textContent=new Date().getFullYear()</script>
+</body>
+</html>

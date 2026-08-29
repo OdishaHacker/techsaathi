@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Permissions Explained: What to Allow and What to Deny — TechSaathi</title>
+  <meta name="description" content="Why does a torch app want your contacts? Learn which Android app permissions are safe, which are red flags, and how to review and revoke them in minutes.">
+  <meta name="theme-color" content="#0f2b3c">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📱</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="../index.html">📱 TechSaathi</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav class="site-nav">
+      <a href="../index.html">Home</a>
+      <a href="../index.html#articles">Articles</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu"><span></span><span></span><span></span></label>
+  </div>
+</header>
+
+<main class="article-wrap">
+  <article class="article">
+    <nav class="breadcrumbs"><a href="../index.html">Home</a> › Online Safety</nav>
+    <h1>App Permissions Explained: What to Allow and What to Deny</h1>
+    <p class="article-meta">By TechSaathi Team · Updated: August 29, 2026 · ~6 min read</p>
+
+    <p>Install a new app and the questions start flying: "Allow access to your contacts? Your location? Your microphone?" Most of us tap Allow to make the popup go away — and that's exactly how apps end up knowing everything about you. Permissions are not just popups; they're doors into your personal life. Here's how to decide which doors to open.</p>
+
+    <h2>The Permissions That Actually Matter</h2>
+    <p>There are dozens of permission types, but these few deserve most of your attention:</p>
+    <table>
+      <tr><th>Permission</th><th>Reasonable For</th><th>Red Flag In</th></tr>
+      <tr><td>Location</td><td>Maps, cab apps, weather</td><td>Games, torch, calculator</td></tr>
+      <tr><td>Microphone</td><td>Voice notes, calls, recorder</td><td>Photo editors, simple games</td></tr>
+      <tr><td>Camera</td><td>Camera apps, scanning, video calls</td><td>Note apps, file managers</td></tr>
+      <tr><td>Contacts</td><td>Messaging, calling apps</td><td>Torch, wallpaper, game apps</td></tr>
+      <tr><td>SMS / Call logs</td><td>True-caller type apps, banking OTP autofill</td><td>Almost everything else</td></tr>
+      <tr><td>Storage / Photos</td><td>Gallery, editors, WhatsApp</td><td>Basic utility apps</td></tr>
+    </table>
+    <p>The test is simple: <strong>does the permission match what the app is supposed to do?</strong> A maps app without location is useless; a maps app without your contacts is fine. A torch app that wants contacts and location is collecting data, not lighting your way.</p>
+
+    <h2>How to Review Permissions You've Already Granted</h2>
+    <ol>
+      <li>Open Settings → Privacy (or Security &amp; privacy) → <strong>Permission manager</strong></li>
+      <li>Tap a sensitive permission — start with Location, Camera, Microphone</li>
+      <li>You'll see every app that has it, sorted by what it's allowed to do</li>
+      <li>Tap any app and change it to "Allow only while in use" or "Don't allow"</li>
+    </ol>
+    <p>Do this for all six sensitive permissions and you'll find at least two or three apps that surprise you. That ten-minute audit is one of the highest-value privacy actions you can take.</p>
+
+    <h2>Five Rules for Future Popups</h2>
+    <ol>
+      <li><strong>Default to "While using the app"</strong> — never "Allow all the time". The only apps that genuinely need background location are safety/parental apps, and they'll tell you why.</li>
+      <li><strong>If the app misbehaves after a denial, decide then</strong> — some apps nag or break features without permissions they don't truly need. If a flashlight won't work without contacts, the app doesn't deserve installing.</li>
+      <li><strong>Denials can be reversed</strong> — nothing is permanent. Deny first, and grant it back only when a feature genuinely fails.</li>
+      <li><strong>Updates can add new permissions</strong> — an app you audited months ago may have gained new access. The Permission manager audit is worth repeating every few months.</li>
+      <li><strong>Be extra strict with sideloaded APKs</strong> — apps installed from outside the Play Store get no automated review at all. A modded game asking for SMS access is how banking fraud starts. See our <a href="online-scam-suraksha.html">scam safety guide</a> for how these schemes play out.</li>
+    </ol>
+
+    <h2>Special Cases Worth Knowing</h2>
+    <ul>
+      <li><strong>Accessibility access</strong> — the most powerful permission on Android. Legitimate uses exist (screen readers, password managers), but scammers in remote-control scams ask for it too. Never grant it because a phone call told you to.</li>
+      <li><strong>Notification access</strong> — lets an app read your OTP messages from notifications. Grant only to apps you deeply trust.</li>
+      <li><strong>"Nearby devices"/Bluetooth</strong> — needed for smartwatches and speakers; pointless for most other apps.</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Permissions are the quiet trade at the heart of every free app — and many apps ask for far more than their function requires. A ten-minute Permission manager audit, plus the "while using" habit for new popups, puts you back in control. Your data is worth more than the twenty seconds a popup saves you.</p>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    <details>
+      <summary>Will denying a permission break my apps?</summary>
+      <p>Only if the app genuinely needs it — a maps app denied location can't navigate. Modern Android apps are built to handle denials gracefully. The practical approach: deny, use the app normally, and grant back only the specific feature that fails.</p>
+    </details>
+    <details>
+      <summary>Is it safe to allow storage access?</summary>
+      <p>Modern Android splits this into "Photos and videos" (the app sees only images you pick) versus full file access. Prefer the restricted option when offered. Full storage access is reasonable for file managers and galleries — unusual for games and torches.</p>
+    </details>
+    <details>
+      <summary>How do I find out which app used my camera?</summary>
+      <p>On recent Android versions, Settings → Privacy shows indicators and history — a green dot appears in the status bar whenever the camera or microphone is in use. Tapping it shows which app is responsible. Use it whenever you suspect something is watching.</p>
+    </details>
+
+    <p style="margin-top:24px">Found an app with suspicious permissions? Time for that audit — and share this article first! 🔐</p>
+  </article>
+
+  <aside class="related">
+    <h2>Read This Next</h2>
+    <ul class="mini-list">
+      <li><a href="online-scam-suraksha.html">🛡️ The Guide to Online Scam Safety</a></li>
+      <li><a href="whatsapp-privacy-settings.html">💬 10 WhatsApp Privacy Settings to Change</a></li>
+      <li><a href="wifi-security-guide.html">📶 How to Secure Your Home WiFi</a></li>
+    </ul>
+  </aside>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h4>TechSaathi</h4>
+      <p>Easy-to-understand guides on technology, smartphones and the internet.</p>
+    </div>
+    <div>
+      <h4>Popular Articles</h4>
+      <a href="smartphone-hang-fix.html">Fix a Hanging Phone</a>
+      <a href="mobile-data-save.html">Save Mobile Data</a>
+      <a href="wifi-speed-increase.html">Boost WiFi Speed</a>
+      <a href="online-scam-suraksha.html">Avoid Online Scams</a>
+      <a href="free-fire-lag-fix.html">Free Fire Lag Fix</a>
+    </div>
+    <div>
+      <h4>Important Pages</h4>
+      <a href="../about.html">About Us</a>
+      <a href="../contact.html">Contact Us</a>
+      <a href="../privacy-policy.html">Privacy Policy</a>
+      <a href="../disclaimer.html">Disclaimer</a>
+      <a href="../terms.html">Terms &amp; Conditions</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span id="yr">2026</span> TechSaathi — All rights reserved.</div>
+</footer>
+<script>document.getElementById("yr").textContent=new Date().getFullYear()</script>
+</body>
+</html>
