@@ -98,8 +98,9 @@ vercel
    (DNSExit → GitHub Pages). `CNAME` file in the repo root tells GitHub Pages
    about it. If the domain ever changes, update the `CNAME` file plus all URLs
    in `sitemap.xml` and `robots.txt`
-2. **Contact form:** Create a free account at [formspree.io](https://formspree.io),
-   create a form, and replace `YOUR_FORM_ID` in `contact.html` with your ID
+2. **Contact form:** Already wired to Formspree (`xzebvawg`) — submissions go to
+   the owner's inbox. To use a different inbox, create your own form at
+   [formspree.io](https://formspree.io) and swap the ID in `contact.html`
 3. **Email:** Replace `hello@techsaathi.com` with your real email
    (found in `contact.html`, `privacy-policy.html`, `disclaimer.html`, `terms.html`)
 4. **Site name:** If you want a different name than "TechSaathi", search-replace it
