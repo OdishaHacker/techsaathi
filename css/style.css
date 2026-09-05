@@ -145,3 +145,5 @@ summary{font-weight:600;cursor:pointer}
   .hero h1{font-size:1.65rem}
   .article{padding:24px 18px}
 }
+
+.card-img{width:100%;height:auto;display:block;border-radius:10px;margin-bottom:8px;border:1px solid var(--line)}
