@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123449"/>
+      <stop offset="1" stop-color="#0b7285"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="140" cy="500" r="230" fill="#ffffff" opacity="0.04"/>
+  <circle cx="1070" cy="130" r="190" fill="#ffffff" opacity="0.05"/>
+  <circle cx="960" cy="520" r="90" fill="#ffffff" opacity="0.04"/>
+  <circle cx="72" cy="74" r="10" fill="#f59f00"/>
+  <text x="94" y="86" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="34" font-weight="700" fill="#f59f00">TechSaathi</text>
+
+  <circle cx="560" cy="360" r="16" fill="#f59f00"/>
+  <path d="M505 310 a78 78 0 0 1 110 0" stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M470 268 a128 128 0 0 1 180 0" stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M435 226 a178 178 0 0 1 250 0" stroke="#f59f00" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M780 380 V270 m0 0 l-40 42 m40 -42 l40 42" stroke="#ffffff" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Boost WiFi Speed</text>
+</svg>
