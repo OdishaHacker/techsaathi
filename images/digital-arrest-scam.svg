@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123449"/>
+      <stop offset="1" stop-color="#0b7285"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="140" cy="500" r="230" fill="#ffffff" opacity="0.04"/>
+  <circle cx="1070" cy="130" r="190" fill="#ffffff" opacity="0.05"/>
+  <circle cx="960" cy="520" r="90" fill="#ffffff" opacity="0.04"/>
+  <circle cx="72" cy="74" r="10" fill="#f59f00"/>
+  <text x="94" y="86" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="34" font-weight="700" fill="#f59f00">TechSaathi</text>
+
+  <circle cx="600" cy="300" r="108" fill="#f59f00"/>
+  <circle cx="600" cy="300" r="84" fill="none" stroke="#0f2b3c" stroke-width="6" opacity="0.3"/>
+  <rect x="566" y="234" width="68" height="132" rx="12" fill="#0f2b3c"/>
+  <path d="M600 268 l30 52 h-60 z" fill="none" stroke="#f59f00" stroke-width="9" stroke-linejoin="round"/>
+  <line x1="600" y1="290" x2="600" y2="305" stroke="#f59f00" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="600" cy="314" r="5" fill="#f59f00"/>
+  <g stroke="#ffffff" stroke-width="10" fill="none" opacity="0.85" stroke-linecap="round">
+    <path d="M770 220 q30 -26 60 0"/>
+    <path d="M790 244 q20 -16 40 0" opacity="0.6"/>
+  </g>
+  <path d="M430 200 l10 24 24 10 -24 10 -10 24 -10 -24 -24 -10 24 -10 z" fill="#ffffff" opacity="0.85"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">The Digital Arrest Scam Explained</text>
+</svg>
