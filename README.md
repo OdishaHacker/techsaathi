@@ -6,29 +6,46 @@ mobile-friendly design and fast loading — with zero heavy libraries.
 
 ---
 
+## 🆕 What's New (November 2026 SEO & Content Upgrade)
+
+- **20 articles** (4 new: Public WiFi Safety, Password Manager Guide, Slow Laptop Fixes, Phone Hacked Signs) — each with FAQ section
+- **Full SEO pack on all pages:** canonical URLs, Open Graph + Twitter Cards (rich WhatsApp/social previews), JSON-LD structured data (`WebSite`, `Organization`, `Article` schema)
+- **Custom `404.html`** — branded page with helpful links (GitHub Pages picks it up automatically)
+- **Real `favicon.svg`** (brand-consistent, replaces emoji favicon)
+- **Privacy Policy strengthened** — direct opt-out links (Google Ads Settings, partner-sites policy)
+- **`ADSENSE-READY` marker comments** inside every article — approval ke baad ad code wahan paste karna hai
+- 4 new SVG hero illustrations in the same brand style
+
+---
+
 ## 📂 Project Structure
 
 ```
 TechSaathi/
-├── index.html              → Homepage (articles grid + features)
+├── index.html              → Homepage (20-article grid + features)
 ├── about.html              → About Us page
 ├── contact.html            → Contact page (Formspree form)
 ├── privacy-policy.html     → Privacy Policy (MUST for AdSense)
 ├── disclaimer.html         → Disclaimer page
 ├── terms.html              → Terms & Conditions page
-├── sitemap.xml             → Sitemap for search engines
+├── 404.html                → Custom 404 page (new)
+├── favicon.svg             → Real brand favicon (new)
+├── sitemap.xml             → Sitemap (26 URLs)
 ├── robots.txt              → Crawler rules
 ├── css/
 │   └── style.css           → Styling for the entire site (single file)
-└── articles/
-    ├── smartphone-hang-fix.html    → Fix a hanging phone
-    ├── mobile-data-save.html       → Save mobile data
-    ├── wifi-speed-increase.html    → Boost WiFi speed
-    ├── online-scam-suraksha.html   → Online scam safety
-    ├── battery-long-life.html      → Battery tips
-    ├── free-fire-lag-fix.html      → Free Fire lag fix
-    ├── youtube-data-save.html      → YouTube data tips
-    └── google-hidden-features.html → Hidden Google features
+├── images/                 → 20 SVG hero illustrations
+└── articles/               → 20 original guides
+    ├── smartphone-hang-fix.html      ├── phone-overheating-fix.html
+    ├── mobile-data-save.html         ├── whatsapp-privacy-settings.html
+    ├── wifi-speed-increase.html      ├── app-permissions-guide.html
+    ├── online-scam-suraksha.html     ├── upi-safety-rules.html
+    ├── battery-long-life.html        ├── budget-phone-buying-guide.html
+    ├── free-fire-lag-fix.html        ├── wifi-security-guide.html
+    ├── youtube-data-save.html        ├── lost-phone-checklist.html
+    ├── google-hidden-features.html   ├── free-up-storage-space.html
+    ├── public-wifi-safety.html       ├── password-manager-guide.html  (new)
+    ├── speed-up-slow-laptop.html     └── phone-hacked-signs.html      (new)
 ```
 
 ---
@@ -37,13 +54,15 @@ TechSaathi/
 
 | Requirement | Status |
 |---|---|
-| Original, useful content (8 articles, 600+ words each) | ✅ |
+| Original, useful content (**20 articles**, 600+ words each) | ✅ |
 | Clear navigation (header + footer menus) | ✅ |
-| Privacy Policy (with AdSense/DART cookie section) | ✅ |
+| Privacy Policy (with AdSense cookies + opt-out links) | ✅ |
 | About Us page | ✅ |
 | Contact page (working form + email) | ✅ |
 | Disclaimer + Terms pages | ✅ |
-| sitemap.xml + robots.txt | ✅ |
+| sitemap.xml (26 URLs) + robots.txt | ✅ |
+| Custom 404 page | ✅ |
+| SEO: canonical, Open Graph, Twitter Cards, JSON-LD schema | ✅ |
 | Mobile responsive (hamburger menu) | ✅ |
 | Fast loading (no frameworks, no external fonts/images) | ✅ |
 | Clean design, no broken links | ✅ |
@@ -117,8 +136,8 @@ vercel
 
 ### Tips to maximize approval chances:
 
-- ✅ Add the site to **Google Search Console** and submit the sitemap before applying
-- ✅ Grow to **15-20 articles** before applying (currently 8) — add 3-4 per week
+- ✅ Add the site to **Google Search Console** and submit the sitemap before applying (verification file already in repo)
+- ✅ **20 articles** ho gaye hain — ab aur mat ruko, apply kar do. Aage bhi hafte me 2-3 articles add karte raho
 - ✅ Let the site live for 2-3 weeks and gain some organic traffic first
 - ❌ Copy-paste content, low-value spun content, or empty pages — instant rejection
 - ❌ Clicking your own ads — permanent account ban
@@ -128,6 +147,8 @@ vercel
 
 - Copy your `ads.txt` line from the AdSense dashboard and create `ads.txt` in the site root:
   `google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`
+- Paste the AdSense `<script>` snippet inside `<head>` of every page (ya `css` ke sath ek shared JS file me daal do)
+- **`ADSENSE-READY` markers:** har article me `<!-- ADSENSE-READY: ... -->` comment hai — wahan in-article ad unit ka code paste karo (article ke intro ke baad best position hoti hai)
 - Place ad units (below header, inside articles, sidebar) — but never click them yourself
 - Remember to add every new article URL to `sitemap.xml`
 

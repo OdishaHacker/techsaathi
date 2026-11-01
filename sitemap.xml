@@ -157,4 +157,32 @@
     <priority>0.3</priority>
   </url>
 
+  <url>
+    <loc>https://techsaathi.publicvm.com/articles/public-wifi-safety.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://techsaathi.publicvm.com/articles/password-manager-guide.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://techsaathi.publicvm.com/articles/speed-up-slow-laptop.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://techsaathi.publicvm.com/articles/phone-hacked-signs.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
